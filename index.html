@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>FinSync</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 p-0">
+          <nav class="navbar navbar-expand-lg navbar-light px-3">
+            <h1>
+              <a href="index.html" class="logo"><img src="assets/images/jm-finance-logo-index.png" alt="" /></a>
+            </h1>
+            <div class="container-fluid">
+              <button type="button" id="sidebarCollapse" class="btn">
+                <img src="assets/images/Drawer.svg" alt="" />
+                <span class="sr-only">Toggle Menu</span>
+              </button>
+              <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="assets/images/Drawer.svg" alt="" />
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto align-items-center headerUL">
+
+
+                  <li class="nav-item">
+                    <img src="assets/images/bell-notification.png" alt="" />
+                  </li>
+                  <li class="nav-item">
+                    <div class="media">
+                      <img src="assets/images/header-user.png" class="mr-3" alt="..." />
+                      <div class="media-body">
+                        <h6 class="mt-0">Role:Admin</h6>
+                        16 Nov,2023, 11:40 Am
+
+                      </div>
+                  <div><a href="login.html"><button style="border: none;
+                    background-color: #35637d;
+                    color: #fff;
+                    border-radius: 5px;
+                    padding: 0px 25px;
+                ">
+                    <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                  </button></a></div>
+
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar" class="active bg-imp">
+        <ul class="list-unstyled components mb-5">
+          <!-- 1st -->
+          <li class="active">
+            <div class="accordion" id="accordionExample">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <img src="assets/images/transection logo.png" alt="" />
+                      Admin Biling Data <i class="fa fa-angle-up" style="    float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mb-0 colorp borderRadiusBottom">
+                      <a href="balanceProgressReports.html">Balance progress report</a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mb-0 BgcolorOrange borderRadiusBottom">
+                      <a href="transection_upload.html"> Transection Upload</a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mb-0 BgcolorOrange borderRadiusBottom">
+                      <a href="execution_query.html"> Execution Query </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mb-0 BgcolorOrange borderRadiusBottom">
+                      <a href="dayStatement.html"> Day Statements</a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mb-0 BgcolorOrange borderRadiusBottom">
+                      <a href="EOD_statements.html">
+                        Closing Account Balance Stat..
+                      </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 1st -->
+
+          <!-- 2nd -->
+
+
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/curier.png" alt="" />
+                      Courier <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 2nd -->
+
+          <!-- 3rd -->
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/insurance-tracker.png" alt="" />
+                      Insurance Tracker <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 3rd -->
+          <!-- 4th -->
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/PO format.png" alt="" />
+                      PO Format <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 4th -->
+          <!-- 5th -->
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/PPM schedule.png" alt="" />
+                      PPM Schedule <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 5th -->
+          <!-- 6th -->
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/stationary-file1.png" alt="" />
+                      Stationary File <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 6th -->
+          <!-- 7th -->
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/agrement-format.png" alt="" />
+                      Agreement Format<i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 7th -->
+          <!-- 8th -->
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/stationary-file1.png" alt="" />
+                      Stationary Requising <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 8th -->
+          <!-- 9th -->
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/travel-daily-booking.png" alt="" />
+                      Travel Daily Booking<i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 9th -->
+          <!-- 10th -->
+          <li class="acti ve">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/seating details.png" alt="" />
+                      Seating Details <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 10th -->
+          <!-- 11th -->
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-drop w-100 active" type="button" data-toggle="collapse"
+                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <img src="assets/images/salary module.png" alt="" />
+                      Salary Module <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordionExample1">
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div class="card-header p-0 border-0 m-1" id="SalesheadingOne">
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <!-- 11th -->
+        </ul>
+      </nav>
+
+      <!-- Page Content  -->
+
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/include.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/progressBar.js"></script>
+  </body>
+
+</html>

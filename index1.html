@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FinSync</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 p-0">
+          <nav class="navbar navbar-expand-lg navbar-light px-3">
+            <h1>
+              <a href="index.html" class="logo"
+                ><img src="assets/images/logo.png" alt=""
+              /></a>
+            </h1>
+            <div class="container-fluid">
+              <button type="button" id="sidebarCollapse" class="btn">
+                <img src="assets/images/Drawer.svg" alt="" />
+                <span class="sr-only">Toggle Menu</span>
+              </button>
+              <button
+                class="btn btn-dark d-inline-block d-lg-none ml-auto"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img src="assets/images/Drawer.svg" alt="" />
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav ml-auto align-items-center headerUL">
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link btn-pl"
+                      id="pills-btech-tab"
+                      href="systemAdmin.html"
+                      role="tab"
+                      aria-controls="pills-btech"
+                      aria-selected="true"
+                      >System Admin</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link btn-pl"
+                      id="bank-magement-tab"
+                      href="balanceProgressReports.html"
+                      role="tab"
+                      aria-controls="bank-magement"
+                      aria-selected="false"
+                      >Account Balances Report</a
+                    >
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link btn-pl"
+                      id="pills-intermediate-tab"
+                      href="bank_management.html"
+                      role="tab"
+                      aria-controls="pills-intermediate"
+                      aria-selected="false"
+                      >Bank Management</a
+                    >
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link btn-pl"
+                      id="pills-bb-tab"
+                      href="payments_details.html"
+                      role="tab"
+                      aria-controls="pills-bb"
+                      aria-selected="false"
+                      >Payment Details</a
+                    >
+                  </li>
+
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link btn-pl"
+                      id="pills-aa-tab"
+                      href="sweeps.html"
+                      role="tab"
+                      aria-controls="pills-aa"
+                      aria-selected="false"
+                      >Sweeps</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <img src="assets/images/notification.svg" alt="" />
+                  </li>
+                  <li class="nav-item">
+                    <div class="media">
+                      <img
+                        src="assets/images/avtar.svg"
+                        class="mr-3"
+                        alt="..."
+                      />
+                      <div class="media-body">
+                        <h6 class="mt-0">kumar Saurabh</h6>
+                        21 June 2023, 16:40
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar" class="active bg-imp">
+        <ul class="list-unstyled components mb-5">
+          <li class="active">
+            <div class="accordion" id="accordionExample">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-drop w-100 active"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <img src="assets/images/transection logo.png" alt="" />
+                      Transections  <i class="fa fa-angle-up" style="    float: right;"></i>
+                    </button>
+                  </h5>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse "
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mb-0 colorp borderRadiusBottom">
+                      <a href="balanceProgressReports.html"
+                        >Balance progress report</a
+                      >
+                    </h2>
+                  </div>
+
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mb-0 BgcolorOrange borderRadiusBottom">
+                      <a href="transection_upload.html"> Transection Upload</a>
+                    </h2>
+                  </div>
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mb-0 BgcolorOrange borderRadiusBottom">
+                      <a href="execution_query.html"> Execution Query </a>
+                    </h2>
+                  </div>
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mb-0 BgcolorOrange borderRadiusBottom">
+                      <a href="dayStatement.html"> Day Statements</a>
+                    </h2>
+                  </div>
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mb-0 BgcolorOrange borderRadiusBottom">
+                      <a href="EOD_statements.html">
+                        Closing Account Balance Stat..
+                      </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="active">
+            <div class="accordion" id="accordionExample1">
+              <div class="card bg-imp">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-drop w-100 active"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="true"
+                      aria-controls="collapseTwo"
+                    >
+                      <img src="assets/images/reports logo.png" alt="" />
+                      Reports <i class="fa fa-angle-up" style="float: right;"></i>
+                    </button>
+                   </h5>
+                </div>
+
+                <div
+                  id="collapseTwo"
+                  class="collapse "
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample1"
+                >
+                  <div class="card-header p-0 border-0" id="SalesheadingOne">
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="account-statement.html"> Financial Statement Report </a>
+                    </h2>
+                  </div>
+
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="intraday-statement.html"> Day Statements Report </a>
+                    </h2>
+                  </div>
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href="todays-active.html"> Present Action Report </a>
+                    </h2>
+                  </div>
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Transection movement Report </a>
+                    </h2>
+                  </div>
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Historical Balances </a>
+                    </h2>
+                  </div>
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mt-3 borderRadiusBottom">
+                      <a href=""> Incompatible Statement Rep.... </a>
+                    </h2>
+                  </div>
+                  <div
+                    class="card-header p-0 border-0 m-1"
+                    id="SalesheadingOne"
+                  >
+                    <h2 class="mt borderRadiusBottom">
+                      <a href=""> Bank Statement Processing R.. </a>
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-4">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="mb-4 pageTitle">Dashboard</h2>
+          </div>
+          <div class="col-md-6 text-right">
+            <marquee direction="left">
+              Abank accepts deposits and makes loans. It derives a profit from
+              the difference between the cost......
+            </marquee>
+          </div>
+          <!-- <div class="col-md-3">
+            <div class="card small-card-group">
+              <div class="card-body p-0">
+                <h5 class="card-title">Total Policies</h5>
+                <h4>17</h4>
+                <p class="card-text">
+                  Total Policy Due to Which Money is Coming into these bank
+                </p>
+                <a href="#"
+                  >See All Policies Name
+                  <img src="assets/images/arrow_left_brown.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div> -->
+          <div class="col-md-6">
+            <div class="card small-card-group">
+              <div class="card-body p-0">
+                <h5 class="card-title">Total Accounts</h5>
+                <h4>17</h4>
+                <p class="card-text">
+                  Including All The Internal. Banks Accounts
+                </p>
+                <a href="#"
+                  >See All <img src="assets/images/arrow_left_brown.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card small-card-group">
+              <div class="card-body p-0">
+                <h5 class="card-title">Total Most Used bank</h5>
+                <h4>17</h4>
+                <p class="card-text">The Banks Most Used or deals with UTI</p>
+                <a href="#"
+                  >See All <img src="assets/images/arrow_left_brown.svg" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-3">
+            <div class="card small-card-group">
+              <div class="card-body p-0 text-center">
+                <h6>Quarter goal Status</h6>
+                <p>
+                  <img src="assets/images/progressBar.svg" alt="" />
+                </p>
+                <a href="#"
+                  >All Goals<img
+                    src="assets/images/arrow_left_brown.svg"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-md-2 mt-4">
+            <div class="card xs-card-group">
+              <div class="card-body">
+                <h4 class="card-title">Opening Balance</h4>
+                <h5>235641.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mt-4">
+            <div class="card xs-card-group">
+              <div class="card-body">
+                <h4 class="card-title">Closing Balance</h4>
+                <h5>235641.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mt-4">
+            <div class="card xs-card-group">
+              <div class="card-body">
+                <h4 class="card-title">Available Balance</h4>
+                <h5>235641.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mt-4">
+            <div class="card xs-card-group">
+              <div class="card-body">
+                <h4 class="card-title">OD Limit</h4>
+                <h5>235641.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mt-4">
+            <div class="card xs-card-group">
+              <div class="card-body">
+                <h4 class="card-title">4 Credit</h4>
+                <h5>235641.00</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 mt-4">
+            <div class="card xs-card-group">
+              <div class="card-body">
+                <h4 class="card-title">0 Debits</h4>
+                <h5>235641.00</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 mt-4">
+            <div class="card lg-card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h5 class="card-title">Transection Flow</h5>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <!-- <label for="exampleFormControlSelect1">Example select</label> -->
+                          <select
+                            class="form-control"
+                            id="exampleFormControlSelect1"
+                          >
+                            <option>Select Bank Name</option>
+                            <option>Axis</option>
+                            <option>SBI</option>
+                            <option>Canara</option>
+                            <option>IDBI</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="table-responsive">
+                      <table class="table table-hover mt-3">
+                        <thead>
+                          <tr class="btn-s">
+                            <th scope="col" id="table_Head">Sr. no</th>
+                            <th scope="col" id="table_Head">Account No.</th>
+                            <th scope="col" id="table_Head">IFSC</th>
+                            <th scope="col" id="table_Head">Balance</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td id="for_table_color">1</td>
+                            <td id="for_table_color">5236548597562</td>
+                            <td id="for_table_color">Axis52314</td>
+                            <td id="for_table_color1">302.0cr</td>
+                          </tr>
+                          <tr style="background-color: #fffaf1">
+                            <td id="for_table_color">2</td>
+                            <td id="for_table_color">5236548597562</td>
+                            <td id="for_table_color">Axis52314</td>
+                            <td id="for_table_color1">302.0cr</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <h5 class="card-title">Last Transection</h5>
+                        <p>Shown As per Week</p>
+                      </div>
+                      <div class="col-md-6 text-right">
+                        <img src="assets/images/network.svg" alt="" />
+                      </div>
+                    </div>
+
+                    <p>
+                      <img
+                        src="assets/images/linechart.svg"
+                        alt=""
+                        class="w-100"
+                      />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- last transection -->
+
+          <div class="col-md-12 mt-4">
+            <div class="card lg-card">
+              <div class="card-body">
+                <!-- <div class="row"> -->
+                <!-- <div class="col-md-6"> -->
+                <h5 class="card-title">Last Transection</h5>
+                <div class="table-responsive">
+                  <table class="table table-hover mt-3">
+                    <thead>
+                      <tr class="btn-s">
+                        <th scope="col" id="table_Head">Sr. no</th>
+                        <th scope="col" id="table_Head">Scheme</th>
+                        <th scope="col" id="table_Head">Date</th>
+                        <th scope="col" id="table_Head">Time</th>
+                        <th scope="col" id="table_Head">Bank Name/ACC No.</th>
+                        <th scope="col" id="table_Head">
+                          To Bank Acc Name/Acc.NO
+                        </th>
+                        <th scope="col" id="table_Head">Amount</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style="background-color: #fffaf1">
+                        <td id="for_table_color">1</td>
+                        <td id="for_table_color">Overnight Fund-</td>
+                        <td id="for_table_color">25/11/2023</td>
+                        <td id="for_table_color1">01:45 PM</td>
+                        <td>Axis Bank_2564325689</td>
+                        <td>Mutual-fund_5236458945</td>
+                        <td id="for_table_color">
+                          <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td id="for_table_color">2</td>
+                        <td id="for_table_color">Overnight Fund-</td>
+                        <td id="for_table_color">25/11/2023</td>
+                        <td id="for_table_color1">01:45 PM</td>
+                        <td>Axis Bank_2564325689</td>
+                        <td>Mutual-fund_5236458945</td>
+                        <td id="for_table_color">
+                          <i class="fa fa-ellipsis-v"></i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- </div> -->
+                <!-- </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/include.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/progressBar.js"></script>
+  </body>
+</html>
